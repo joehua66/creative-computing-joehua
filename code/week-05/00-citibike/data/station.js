@@ -1,6 +1,6 @@
 class Station{
     constructor(station){
-        this.id= stations.id
+        this.id= station.id
         this.x= map(station.lng,minLng,maxLng,0,width)
         this.y= map(station.lat,minLat,maxLat,height,0)
     }
